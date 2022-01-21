@@ -16,6 +16,7 @@ serviceType: ClusterIP
 # targetPort is where application is listening on inside the container.
 servicePort: 8080
 serviceTargetPort: 8080
+
 sename: <+pipeline.variables.seusername>
 
 # Specify all environment variables to be added to the container.
